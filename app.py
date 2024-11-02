@@ -18,6 +18,7 @@ from PIL import Image
 # Título y descripción de la aplicación
 st.title("Clasificación de Neumonía en Rayos X Pediátricos")
 st.write("Esta aplicación utiliza un modelo de deep learning para predecir si una imagen de rayos X muestra signos de neumonía.")
+st.write("Hecho por: Giovanny Egoavil Cardenas.")
 
 # Cargar el modelo preentrenado
 @st.cache_resource  # Usa caché para cargar el modelo solo una vez
